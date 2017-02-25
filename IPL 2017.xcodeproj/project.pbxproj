@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801EC5661E606340002D967D /* pageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801EC5651E606340002D967D /* pageTwo.swift */; };
+		801EC5681E606376002D967D /* pageThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801EC5671E606376002D967D /* pageThree.swift */; };
+		801EC56A1E612E2D002D967D /* bannerpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801EC5691E612E2D002D967D /* bannerpage.swift */; };
+		8072E0A61E6019DA0046A5AA /* pageOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072E0A51E6019DA0046A5AA /* pageOne.swift */; };
+		807D54FF1E5F70510077447F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807D54FD1E5F70510077447F /* Main.storyboard */; };
 		80D166231E5DFE31004C3C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D166221E5DFE31004C3C07 /* AppDelegate.swift */; };
 		80D166251E5DFE31004C3C07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D166241E5DFE31004C3C07 /* ViewController.swift */; };
-		80D166281E5DFE31004C3C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D166261E5DFE31004C3C07 /* Main.storyboard */; };
 		80D1662A1E5DFE31004C3C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D166291E5DFE31004C3C07 /* Assets.xcassets */; };
 		80D1662D1E5DFE31004C3C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D1662B1E5DFE31004C3C07 /* LaunchScreen.storyboard */; };
 		80D166381E5DFE31004C3C07 /* IPL_2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D166371E5DFE31004C3C07 /* IPL_2017Tests.swift */; };
@@ -34,10 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		801EC5651E606340002D967D /* pageTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageTwo.swift; sourceTree = "<group>"; };
+		801EC5671E606376002D967D /* pageThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageThree.swift; sourceTree = "<group>"; };
+		801EC5691E612E2D002D967D /* bannerpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bannerpage.swift; sourceTree = "<group>"; };
+		8072E0A51E6019DA0046A5AA /* pageOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageOne.swift; sourceTree = "<group>"; };
+		807D54FE1E5F70510077447F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		80D1661F1E5DFE31004C3C07 /* IPL 2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IPL 2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D166221E5DFE31004C3C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D166241E5DFE31004C3C07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80D166271E5DFE31004C3C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80D166291E5DFE31004C3C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D1662C1E5DFE31004C3C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80D1662E1E5DFE31004C3C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,10 +107,14 @@
 			children = (
 				80D166221E5DFE31004C3C07 /* AppDelegate.swift */,
 				80D166241E5DFE31004C3C07 /* ViewController.swift */,
-				80D166261E5DFE31004C3C07 /* Main.storyboard */,
+				8072E0A51E6019DA0046A5AA /* pageOne.swift */,
+				801EC5651E606340002D967D /* pageTwo.swift */,
+				801EC5671E606376002D967D /* pageThree.swift */,
+				807D54FD1E5F70510077447F /* Main.storyboard */,
 				80D166291E5DFE31004C3C07 /* Assets.xcassets */,
 				80D1662B1E5DFE31004C3C07 /* LaunchScreen.storyboard */,
 				80D1662E1E5DFE31004C3C07 /* Info.plist */,
+				801EC5691E612E2D002D967D /* bannerpage.swift */,
 			);
 			path = "IPL 2017";
 			sourceTree = "<group>";
@@ -232,9 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807D54FF1E5F70510077447F /* Main.storyboard in Resources */,
 				80D1662D1E5DFE31004C3C07 /* LaunchScreen.storyboard in Resources */,
 				80D1662A1E5DFE31004C3C07 /* Assets.xcassets in Resources */,
-				80D166281E5DFE31004C3C07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D166251E5DFE31004C3C07 /* ViewController.swift in Sources */,
+				801EC5681E606376002D967D /* pageThree.swift in Sources */,
+				801EC56A1E612E2D002D967D /* bannerpage.swift in Sources */,
+				8072E0A61E6019DA0046A5AA /* pageOne.swift in Sources */,
 				80D166231E5DFE31004C3C07 /* AppDelegate.swift in Sources */,
+				801EC5661E606340002D967D /* pageTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +312,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		80D166261E5DFE31004C3C07 /* Main.storyboard */ = {
+		807D54FD1E5F70510077447F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80D166271E5DFE31004C3C07 /* Base */,
+				807D54FE1E5F70510077447F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -413,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IPL 2017/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mc.IPL-2017";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IPL 2017/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mc.IPL-2017";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +523,7 @@
 				80D166491E5DFE31004C3C07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80D1664A1E5DFE31004C3C07 /* Build configuration list for PBXNativeTarget "IPL 2017Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +532,7 @@
 				80D1664C1E5DFE31004C3C07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80D1664D1E5DFE31004C3C07 /* Build configuration list for PBXNativeTarget "IPL 2017UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +541,7 @@
 				80D1664F1E5DFE31004C3C07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
