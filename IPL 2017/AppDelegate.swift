@@ -2,12 +2,13 @@
 //  AppDelegate.swift
 //  IPL 2017
 //
-//  Created by Umair Aslam on 22/02/2017.
+//  Created by Abid Ali on 22/02/2017.
 //  Copyright © 2017 mc. All rights reserved.
 //
 
 import UIKit
-
+import Firebase
+import GoogleMobileAds
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-3940256099942544~1458002511")
+        
+        FIRApp.configure()
         return true
     }
 

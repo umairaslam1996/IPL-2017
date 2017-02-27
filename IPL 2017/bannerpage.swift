@@ -2,7 +2,7 @@
 //  bannerpage.swift
 //  IPL 2017
 //
-//  Created by Umair Aslam on 25/02/2017.
+//  Created by Abid Ali on 22/02/2017.
 //  Copyright © 2017 mc. All rights reserved.
 //
 

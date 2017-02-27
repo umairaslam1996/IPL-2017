@@ -1,14 +1,14 @@
 //
-//  pageTwo.swift
+//  ScoreViewController.swift
 //  IPL 2017
 //
-//  Created by Abid Ali on 22/02/2017.
+//  Created by Abid Ali on 2/27/17.
 //  Copyright © 2017 mc. All rights reserved.
 //
 
 import UIKit
 
-class pageTwo: UIViewController {
+class ScoreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
