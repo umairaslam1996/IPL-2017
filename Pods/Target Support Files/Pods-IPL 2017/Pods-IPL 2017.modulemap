@@ -1,0 +1,6 @@
+framework module Pods_IPL_2017 {
+  umbrella header "Pods-IPL 2017-umbrella.h"
+
+  export *
+  module * { export * }
+}

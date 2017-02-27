@@ -1,0 +1,6 @@
+framework module Pods_IPL_2017Tests {
+  umbrella header "Pods-IPL 2017Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
