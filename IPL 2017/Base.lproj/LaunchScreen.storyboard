@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,33 +21,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash 01" translatesAutoresizingMaskIntoConstraints="NO" id="WHQ-jU-KdP">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash 02" translatesAutoresizingMaskIntoConstraints="NO" id="fBj-Pw-YnO">
-                                <rect key="frame" x="0.0" y="207" width="414" height="529"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="fBj-Pw-YnO" secondAttribute="height" multiplier="18:23" id="c7E-tW-Odz"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spalsh" translatesAutoresizingMaskIntoConstraints="NO" id="J2o-dG-TiG">
+                                <rect key="frame" x="0.0" y="-5" width="414" height="747"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="fBj-Pw-YnO" secondAttribute="bottom" id="S8s-zD-Ssp"/>
-                            <constraint firstAttribute="trailing" secondItem="fBj-Pw-YnO" secondAttribute="trailing" id="SM0-sb-bJu"/>
-                            <constraint firstItem="fBj-Pw-YnO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hme-Gm-WT7"/>
+                            <constraint firstItem="J2o-dG-TiG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-5" id="BuK-D8-gaB"/>
+                            <constraint firstItem="J2o-dG-TiG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="gn7-Aw-9aV"/>
+                            <constraint firstItem="J2o-dG-TiG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="iTe-04-wwD"/>
+                            <constraint firstAttribute="trailing" secondItem="J2o-dG-TiG" secondAttribute="trailing" id="tc2-f8-kEj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4zd-Nl-Zdo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991.20000000000005" y="374.66266866566718"/>
+            <point key="canvasLocation" x="989.85507246376824" y="374.18478260869568"/>
         </scene>
     </scenes>
     <resources>
-        <image name="splash 01" width="376" height="668"/>
-        <image name="splash 02" width="376" height="461"/>
+        <image name="spalsh" width="716" height="1141"/>
     </resources>
 </document>

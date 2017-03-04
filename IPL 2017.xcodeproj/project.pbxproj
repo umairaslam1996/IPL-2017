@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		183EE6F51E63E66A00EF26DD /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EE6F41E63E66A00EF26DD /* ScoreViewController.swift */; };
 		183EE6F71E63E6A600EF26DD /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EE6F61E63E6A600EF26DD /* ScheduleViewController.swift */; };
+		183EE6F91E63EDD500EF26DD /* StandingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EE6F81E63EDD500EF26DD /* StandingsViewController.swift */; };
+		183EE6FB1E63EDF400EF26DD /* PointsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EE6FA1E63EDF400EF26DD /* PointsTableViewController.swift */; };
+		183EE6FD1E63EE1600EF26DD /* ServerOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EE6FC1E63EE1600EF26DD /* ServerOneViewController.swift */; };
+		183EE6FF1E63EE2100EF26DD /* ServerTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EE6FE1E63EE2100EF26DD /* ServerTwoViewController.swift */; };
+		183EE7011E63EE2B00EF26DD /* ServerThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EE7001E63EE2B00EF26DD /* ServerThreeViewController.swift */; };
 		187504971E6152180004F2AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187504961E6152180004F2AB /* GoogleService-Info.plist */; };
 		2E5C0A66545CC5D95B60A50A /* Pods_IPL_2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556DDBC66C4A1BE5D2EA1A0 /* Pods_IPL_2017.framework */; };
 		7BC539CAC52F9B6BAEACA9A4 /* Pods_IPL_2017UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F62F94BA9DC7061C1F9782D /* Pods_IPL_2017UITests.framework */; };
@@ -47,6 +52,11 @@
 		183EE6F31E63E4B200EF26DD /* IPL 2017.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "IPL 2017.entitlements"; path = "IPL 2017/IPL 2017.entitlements"; sourceTree = "<group>"; };
 		183EE6F41E63E66A00EF26DD /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		183EE6F61E63E6A600EF26DD /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		183EE6F81E63EDD500EF26DD /* StandingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingsViewController.swift; sourceTree = "<group>"; };
+		183EE6FA1E63EDF400EF26DD /* PointsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsTableViewController.swift; sourceTree = "<group>"; };
+		183EE6FC1E63EE1600EF26DD /* ServerOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerOneViewController.swift; sourceTree = "<group>"; };
+		183EE6FE1E63EE2100EF26DD /* ServerTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTwoViewController.swift; sourceTree = "<group>"; };
+		183EE7001E63EE2B00EF26DD /* ServerThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerThreeViewController.swift; sourceTree = "<group>"; };
 		187504961E6152180004F2AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4FF1FE044031FCDE20482EE2 /* Pods-IPL 2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPL 2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPL 2017/Pods-IPL 2017.debug.xcconfig"; sourceTree = "<group>"; };
 		5F62F94BA9DC7061C1F9782D /* Pods_IPL_2017UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IPL_2017UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +119,11 @@
 			children = (
 				80D166221E5DFE31004C3C07 /* AppDelegate.swift */,
 				801EC5691E612E2D002D967D /* bannerpage.swift */,
+				183EE6F81E63EDD500EF26DD /* StandingsViewController.swift */,
+				183EE6FA1E63EDF400EF26DD /* PointsTableViewController.swift */,
+				183EE6FC1E63EE1600EF26DD /* ServerOneViewController.swift */,
+				183EE6FE1E63EE2100EF26DD /* ServerTwoViewController.swift */,
+				183EE7001E63EE2B00EF26DD /* ServerThreeViewController.swift */,
 				80D166241E5DFE31004C3C07 /* ViewController.swift */,
 				8072E0A51E6019DA0046A5AA /* pageOne.swift */,
 				183EE6F41E63E66A00EF26DD /* ScoreViewController.swift */,
@@ -486,12 +501,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				183EE6F51E63E66A00EF26DD /* ScoreViewController.swift in Sources */,
+				183EE7011E63EE2B00EF26DD /* ServerThreeViewController.swift in Sources */,
 				80D166251E5DFE31004C3C07 /* ViewController.swift in Sources */,
+				183EE6FD1E63EE1600EF26DD /* ServerOneViewController.swift in Sources */,
+				183EE6F91E63EDD500EF26DD /* StandingsViewController.swift in Sources */,
 				801EC5681E606376002D967D /* pageThree.swift in Sources */,
 				183EE6F71E63E6A600EF26DD /* ScheduleViewController.swift in Sources */,
 				801EC56A1E612E2D002D967D /* bannerpage.swift in Sources */,
 				8072E0A61E6019DA0046A5AA /* pageOne.swift in Sources */,
+				183EE6FF1E63EE2100EF26DD /* ServerTwoViewController.swift in Sources */,
 				80D166231E5DFE31004C3C07 /* AppDelegate.swift in Sources */,
+				183EE6FB1E63EDF400EF26DD /* PointsTableViewController.swift in Sources */,
 				801EC5661E606340002D967D /* pageTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

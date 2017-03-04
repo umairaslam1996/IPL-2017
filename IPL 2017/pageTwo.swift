@@ -7,29 +7,33 @@
 //
 
 import UIKit
-
+import GoogleMobileAds
 class pageTwo: UIViewController {
 
+    var banner: GADBannerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        loadbanner()
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    func loadbanner(){
+        banner = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+        self.banner.adUnitID = "ca-app-pub-2809593728729827/3065581391"
+        self.banner.rootViewController = self
+        let requestad: GADRequest = GADRequest()
+        self.banner.load(requestad)
+        banner.frame = CGRect(x: 0, y: view.bounds.height - banner.frame.size.height, width: banner.frame.size.width, height: banner.frame.size.height)
+        self.view.addSubview(banner)
     }
-    */
+    
 
 }

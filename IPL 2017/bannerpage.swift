@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import GoogleMobileAds
 class bannerpage: UIViewController {
 
     @IBOutlet weak var bannerView: UIScrollView!

@@ -7,13 +7,16 @@
 //
 
 import UIKit
-
+import GoogleMobileAds
 class pageOne: UIViewController {
 
+     var banner: GADBannerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        loadbanner()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +25,17 @@ class pageOne: UIViewController {
     }
     
 
+    func loadbanner(){
+        banner = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+        self.banner.adUnitID = "ca-app-pub-2809593728729827/3065581391"
+        self.banner.rootViewController = self
+        let requestad: GADRequest = GADRequest()
+        self.banner.load(requestad)
+        banner.frame = CGRect(x: 0, y: view.bounds.height - banner.frame.size.height, width: banner.frame.size.width, height: banner.frame.size.height)
+        self.view.addSubview(banner)
+    }
+    
+    
     /*
     // MARK: - Navigation
 
